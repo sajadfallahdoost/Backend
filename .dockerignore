@@ -11,7 +11,7 @@
 .git/ 
 **/__pycache__/ 
 docs/ 
-Dockerfile 
+# Dockerfile 
 README.md 
 settings-dev.ini 
 .dccache 
