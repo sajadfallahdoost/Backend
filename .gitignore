@@ -89,7 +89,7 @@ media/upload/**
 **/uploads/
 **/upload/
 .dccache
-
+sh
 ### Code editor ###
 .vscode
 .idea
