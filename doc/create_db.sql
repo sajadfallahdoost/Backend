@@ -1,19 +1,19 @@
-CREATE DATABASE "Backend" ;
+CREATE DATABASE "Backend-2" ;
 
-CREATE USER "Backend_user" WITH PASSWORD 'Q-V3dGx8RkKKoMwwHYO06aRglj06_V_p02cE1n7fGYQ' ;
+CREATE USER "Backend-2_user" WITH PASSWORD 'sajadfallahdoost1234' ;
 
-ALTER ROLE "Backend_user" SET client_encoding TO 'utf8' ;
+ALTER ROLE "Backend-2_user" SET client_encoding TO 'utf8' ;
 
-ALTER ROLE "Backend_user" SET default_transaction_isolation TO 'read committed' ;
+ALTER ROLE "Backend-2_user" SET default_transaction_isolation TO 'read committed' ;
 
-ALTER ROLE "Backend_user" SET timezone TO 'UTC' ;
+ALTER ROLE "Backend-2_user" SET timezone TO 'UTC' ;
 
-ALTER USER "Backend_user" CREATEDB ;
+ALTER USER "Backend-2_user" CREATEDB ;
 
-GRANT ALL PRIVILEGES ON DATABASE Backend TO "Backend_user" ;
+GRANT ALL PRIVILEGES ON DATABASE Backend-2 TO "Backend-2_user" ;
 
-GRANT ALL ON schema public TO "Backend_user" ;
+GRANT ALL ON schema public TO "Backend-2_user" ;
 
-SELECT has_schema_privilege( 'Backend_user','public','CREATE') ;
+SELECT has_schema_privilege( 'Backend-2_user','public','CREATE') ;
 
-ALTER DATABASE "Backend" OWNER TO "Backend_user" ;
+ALTER DATABASE "Backend-2" OWNER TO "Backend-2_user" ;

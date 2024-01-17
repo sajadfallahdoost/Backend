@@ -11,6 +11,6 @@ services:
   db:
     image: postgres
     environment:
-      POSTGRES_DB: Backend
-      POSTGRES_USER: Backend_user
+      POSTGRES_DB: Backend-2
+      POSTGRES_USER: Backend-2_user
       POSTGRES_PASSWORD: "sajadfallahdoost1234"
