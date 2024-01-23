@@ -1,4 +1,6 @@
-FROM python:3.11
+# Pull Python image from a custom Docker registry
+FROM docker.arvancloud.ir/python:3.11
+# FROM python:3.11
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1 \
