@@ -82,7 +82,7 @@ DATABASES = {
         "NAME": "Backend-2",
         "USER": "Backend-2_user",
         "PASSWORD": "sajadfallahdoost1234",
-        'HOST': 'localhost',
+        'HOST': 'db',
         "PORT": "5432",
         "TEST": {"NAME": "Backend-2_test"},
     },
